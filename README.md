@@ -40,3 +40,23 @@
 
 
     It will then show an interactive terminal for the execution of the BMI calculator.
+
+3. Node JS - Volume
+    *A simple Node JS application that stores feedback*
+
+    2 options to have an image of this project:
+    1. Pull image from Dockerhub repository
+        ```
+            docker pull reinierjavier/node-volume-feedback:latest 
+        ```
+
+    2. Clone this project, then build an image
+        ```
+            docker build -t <image name> .      
+        ```
+
+    Run it using the command
+
+            docker run -d -p 80:80 --name <container name> <image name>:<tag>
+
+    Verify that application is running by loading *localhost:80* in the browser
