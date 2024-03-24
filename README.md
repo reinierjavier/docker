@@ -57,6 +57,8 @@
 
     Run it using the command
 
-            docker run -d -p 80:80 --name <container name> <image name>:<tag>
+            docker run -d -p 80:80 --name <container name> -v <volume name>:<path> <image name>:<tag>
 
+   *Adding the -v <volume name>:<path> ensures that the data inside this path will not get lost even after shutting down the container*
+   
     Verify that application is running by loading *localhost:80* in the browser
