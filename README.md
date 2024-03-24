@@ -47,7 +47,7 @@
     2 options to have an image of this project:
     1. Pull image from Dockerhub repository
         ```
-            docker pull reinierjavier/node-volume-feedback:latest 
+            docker pull reinierjavier/node-volume-feedback:volume 
         ```
 
     2. Clone this project, then build an image
